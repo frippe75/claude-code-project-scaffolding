@@ -204,3 +204,4 @@ These tasks should be evaluated and completed by the agent during project initia
 - No emojis in this file or in commit messages
 - Status markers must follow `[ ]` or `[x]` form
 - Do not include any Claude attribution in commits
+EOF
