@@ -8,12 +8,12 @@ You can initialize a new Claude-ready project directory with one command:
 
 ### Using `curl`
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/scaffold-claude-project.sh) my-project
+bash <(curl -fsSL https://raw.githubusercontent.com/frippe75/claude-code-project-scaffolding/refs/heads/main/scaffold.sh) my-project
 ```
 
 ### Using `wget`
 ```bash
-bash <(wget -qO- https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/scaffold-claude-project.sh) my-project
+bash <(wget -qO- https://raw.githubusercontent.com/frippe75/claude-code-project-scaffolding/refs/heads/main/scaffold.sh) my-project
 ```
 
 Replace `USERNAME`, `REPO`, and `BRANCH` with the appropriate values for your repository.
@@ -23,7 +23,7 @@ Replace `USERNAME`, `REPO`, and `BRANCH` with the appropriate values for your re
 If you'd like to inspect the script before running it:
 
 ```bash
-curl -o scaffold.sh https://raw.githubusercontent.com/USERNAME/REPO/BRANCH/scaffold-claude-project.sh
+curl -o scaffold.sh https://raw.githubusercontent.com/frippe75/claude-code-project-scaffolding/refs/heads/main/scaffold.sh
 chmod +x scaffold.sh
 ./scaffold.sh my-project
 ```
