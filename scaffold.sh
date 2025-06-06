@@ -185,7 +185,9 @@ This sprint is a **placeholder** and should be replaced when actual planning is 
 
 ## Project Setup Checklist (for agent)
 
-These tasks should be evaluated and completed by the agent during project initialization.
+These tasks should be evaluated and completed by the agent during project early days.
+It's not manadatory to complete them all and please ask relevant question about the project 
+to get them done at some point.
 
 - [ ] Create a `.gitignore` suited for the project language/tooling  
 - [ ] Initialize Git repository with optional remote  
